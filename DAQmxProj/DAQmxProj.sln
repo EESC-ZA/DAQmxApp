@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAQmxProj", "DAQmxProj.csproj", "{423A5C23-8A9F-46CA-9FF5-24F3F114DBE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2436846E-039F-4A30-A829-4007B33F120E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{423A5C23-8A9F-46CA-9FF5-24F3F114DBE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423A5C23-8A9F-46CA-9FF5-24F3F114DBE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423A5C23-8A9F-46CA-9FF5-24F3F114DBE4}.Debug|x86.ActiveCfg = Debug|x86
+		{423A5C23-8A9F-46CA-9FF5-24F3F114DBE4}.Debug|x86.Build.0 = Debug|x86
+		{423A5C23-8A9F-46CA-9FF5-24F3F114DBE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423A5C23-8A9F-46CA-9FF5-24F3F114DBE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{423A5C23-8A9F-46CA-9FF5-24F3F114DBE4}.Release|x86.ActiveCfg = Release|x86
+		{423A5C23-8A9F-46CA-9FF5-24F3F114DBE4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15E7CC54-4465-41E7-B73C-D27E9F9603C6}
+	EndGlobalSection
+EndGlobal

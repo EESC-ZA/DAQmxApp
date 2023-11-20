@@ -1,0 +1,46 @@
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\bin\x86\Debug\net6.0-windows\DAQmxProj.exe
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\bin\x86\Debug\net6.0-windows\DAQmxProj.deps.json
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\bin\x86\Debug\net6.0-windows\DAQmxProj.runtimeconfig.json
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\bin\x86\Debug\net6.0-windows\DAQmxProj.dll
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\bin\x86\Debug\net6.0-windows\DAQmxProj.pdb
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\bin\x86\Debug\net6.0-windows\NationalInstruments.Common.dll
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\bin\x86\Debug\net6.0-windows\NationalInstruments.DAQmx.dll
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\bin\x86\Debug\net6.0-windows\NationalInstruments.Common.xml
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\bin\x86\Debug\net6.0-windows\NationalInstruments.DAQmx.xml
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.csproj.AssemblyReference.cache
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.Form1.resources
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.csproj.GenerateResource.cache
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.AssemblyInfoInputs.cache
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.AssemblyInfo.cs
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.csproj.CoreCompileInputs.cache
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.csproj.CopyComplete
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.dll
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\obj\x86\Debug\net6.0-windows\refint\DAQmxProj.dll
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.pdb
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.genruntimeconfig.cache
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\obj\x86\Debug\net6.0-windows\ref\DAQmxProj.dll
+C:\Users\mcg\Documents\Visual Studio 2022\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.NewChannelForm.resources
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.csproj.AssemblyReference.cache
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.NewChannelForm.resources
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.Form1.resources
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.csproj.GenerateResource.cache
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.AssemblyInfoInputs.cache
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.AssemblyInfo.cs
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.csproj.CoreCompileInputs.cache
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.dll
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\obj\x86\Debug\net6.0-windows\refint\DAQmxProj.dll
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.pdb
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\bin\x86\Debug\net6.0-windows\DAQmxProj.exe
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\bin\x86\Debug\net6.0-windows\DAQmxProj.deps.json
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\bin\x86\Debug\net6.0-windows\DAQmxProj.runtimeconfig.json
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\bin\x86\Debug\net6.0-windows\DAQmxProj.dll
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\bin\x86\Debug\net6.0-windows\DAQmxProj.pdb
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\bin\x86\Debug\net6.0-windows\NationalInstruments.Common.dll
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\bin\x86\Debug\net6.0-windows\NationalInstruments.DAQmx.dll
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\bin\x86\Debug\net6.0-windows\NationalInstruments.Common.xml
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\bin\x86\Debug\net6.0-windows\NationalInstruments.DAQmx.xml
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.csproj.CopyComplete
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\obj\x86\Debug\net6.0-windows\DAQmxProj.genruntimeconfig.cache
+C:\Users\mcg\Documents\GitHub\DAQmxApp\DAQmxProj\obj\x86\Debug\net6.0-windows\ref\DAQmxProj.dll

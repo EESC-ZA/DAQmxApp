@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DAQmxProj/1.0.0": {
+        "dependencies": {
+          "NationalInstruments.Common": "19.1.40.49152",
+          "NationalInstruments.DAQmx": "23.8.45.49349"
+        },
+        "runtime": {
+          "DAQmxProj.dll": {}
+        }
+      },
+      "NationalInstruments.Common/19.1.40.49152": {
+        "runtime": {
+          "NationalInstruments.Common.dll": {
+            "assemblyVersion": "19.1.40.49152",
+            "fileVersion": "19.1.40.49152"
+          }
+        }
+      },
+      "NationalInstruments.DAQmx/23.8.45.49349": {
+        "runtime": {
+          "NationalInstruments.DAQmx.dll": {
+            "assemblyVersion": "23.8.45.49349",
+            "fileVersion": "23.8.45.49349"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DAQmxProj/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NationalInstruments.Common/19.1.40.49152": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NationalInstruments.DAQmx/23.8.45.49349": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
