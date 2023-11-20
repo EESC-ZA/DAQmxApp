@@ -19,7 +19,7 @@ namespace DAQmxProj
         public NewChannelForm( )
         {
             InitializeComponent();
-            cjcSourceComboBox.SelectedIndex = 1;
+            cjcSourceComboBox.SelectedIndex = 2;
             thermocoupleTypeComboBox.SelectedIndex = 2;
             physicalChannelComboBox.Items.AddRange(DaqSystem.Local.GetPhysicalChannels(PhysicalChannelTypes.AI, PhysicalChannelAccess.External));
             if (physicalChannelComboBox.Items.Count > 0)
