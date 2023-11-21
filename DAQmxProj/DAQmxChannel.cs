@@ -112,11 +112,22 @@ namespace DAQmxProj
                 channelName = NewChannelForm.channelNameTextBox.Text;
                 CJCSource = NewChannelForm.cjcSourceComboBox.SelectedIndex;
 
+
+                if (channelName.Length <= 0)
+                    channelName = "channel" + NewChannelForm.physicalChannelComboBox.SelectedIndex.ToString();
+
                 PhysicalChannelValueLabel.Text = channelName;
                 channelGroupBox.Text = PhysicalChannel;
                 ThermocoupleTypeValueLabel.Text = ThermocoupleType;
                 TemperatureValueLabel.Text = CJCValue.ToString();
                 ThermocoupleTypeValueLabel.Text = NewChannelForm.thermocoupleTypeComboBox.Text;
+                minValueLabel.Text = MinimumTemp.ToString();
+                maxValueLabel.Text = MaximumTemp.ToString();
+
+
+
+
+                CJCSourceValueLabel.Text = NewChannelForm.cjcSourceComboBox.Text;
 
                 switch (NewChannelForm.thermocoupleTypeComboBox.SelectedIndex)
                 {
@@ -177,23 +188,92 @@ namespace DAQmxProj
             this.TemperatureValueLabel = new System.Windows.Forms.Label();
             this.ThermocoupleTypeValueLabel = new System.Windows.Forms.Label();
 
+            this.CJCSourceLabel = new System.Windows.Forms.Label();
+            this.CJCSourceValueLabel = new System.Windows.Forms.Label();
+            this.maxValueLabel = new System.Windows.Forms.Label();
+            this.maximumValueLabel = new System.Windows.Forms.Label();
+            this.minValueLabel = new System.Windows.Forms.Label();
+            this.minimumLabel = new System.Windows.Forms.Label();
+
             // 
             // channelGroupBox
             // 
             this.channelGroupBox.BackColor = System.Drawing.Color.Bisque;
+            this.channelGroupBox.BackColor = System.Drawing.Color.Bisque;
+            this.channelGroupBox.BackColor = System.Drawing.Color.Bisque;
+            this.channelGroupBox.BackColor = System.Drawing.Color.Bisque;
+            this.channelGroupBox.BackColor = System.Drawing.Color.Bisque;
+            this.channelGroupBox.BackColor = System.Drawing.Color.Bisque;
+            this.channelGroupBox.BackColor = System.Drawing.Color.Bisque;
+            this.channelGroupBox.BackColor = System.Drawing.Color.Bisque;
+
+
             this.channelGroupBox.Controls.Add(this.ThermocoupleTypeValueLabel);
             this.channelGroupBox.Controls.Add(this.ThermocoupleTypeLabel);
             this.channelGroupBox.Controls.Add(this.PhysicalChannelValueLabel);
             this.channelGroupBox.Controls.Add(this.channelNameLabel);
             this.channelGroupBox.Controls.Add(this.TemperatureLabel);
             this.channelGroupBox.Controls.Add(this.TemperatureValueLabel);
+
+            this.channelGroupBox.Controls.Add(this.CJCSourceValueLabel);
+            this.channelGroupBox.Controls.Add(this.CJCSourceLabel);
+            this.channelGroupBox.Controls.Add(this.maxValueLabel);
+            this.channelGroupBox.Controls.Add(this.maximumValueLabel);
+            this.channelGroupBox.Controls.Add(this.minValueLabel);
+            this.channelGroupBox.Controls.Add(this.minimumLabel);
+
             this.channelGroupBox.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.channelGroupBox.Location = new System.Drawing.Point(3, 3);
             this.channelGroupBox.Name = "channelGroupBox";
-            this.channelGroupBox.Size = new System.Drawing.Size(170, 87);
+            this.channelGroupBox.Size = new System.Drawing.Size(156, 159);
             this.channelGroupBox.TabIndex = 0;
             this.channelGroupBox.TabStop = false;
             this.channelGroupBox.Text = "Physical channel";
+
+            // 
+            // maxValueLabel
+            // 
+            this.maxValueLabel.AutoSize = true;
+            this.maxValueLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.maxValueLabel.ForeColor = System.Drawing.Color.Black;
+            this.maxValueLabel.Location = new System.Drawing.Point(88, 106);
+            this.maxValueLabel.Name = "maxValueLabel";
+            this.maxValueLabel.Size = new System.Drawing.Size(28, 15);
+            this.maxValueLabel.TabIndex = 9;
+            this.maxValueLabel.Text = "000";
+            // 
+            // maximumValueLabel
+            // 
+            this.maximumValueLabel.AutoSize = true;
+            this.maximumValueLabel.ForeColor = System.Drawing.Color.Black;
+            this.maximumValueLabel.Location = new System.Drawing.Point(9, 106);
+            this.maximumValueLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.maximumValueLabel.Name = "maximumValueLabel";
+            this.maximumValueLabel.Size = new System.Drawing.Size(33, 15);
+            this.maximumValueLabel.TabIndex = 8;
+            this.maximumValueLabel.Text = "Max:";
+            // 
+            // minValueLabel
+            // 
+            this.minValueLabel.AutoSize = true;
+            this.minValueLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.minValueLabel.ForeColor = System.Drawing.Color.Black;
+            this.minValueLabel.Location = new System.Drawing.Point(88, 85);
+            this.minValueLabel.Name = "minValueLabel";
+            this.minValueLabel.Size = new System.Drawing.Size(28, 15);
+            this.minValueLabel.TabIndex = 7;
+            this.minValueLabel.Text = "000";
+            // 
+            // minimumLabel
+            // 
+            this.minimumLabel.AutoSize = true;
+            this.minimumLabel.ForeColor = System.Drawing.Color.Black;
+            this.minimumLabel.Location = new System.Drawing.Point(9, 85);
+            this.minimumLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.minimumLabel.Name = "minimumLabel";
+            this.minimumLabel.Size = new System.Drawing.Size(31, 15);
+            this.minimumLabel.TabIndex = 6;
+            this.minimumLabel.Text = "Min:";
             // 
             // ThermocoupleTypeValue
             // 
@@ -260,6 +340,28 @@ namespace DAQmxProj
             this.TemperatureValueLabel.Size = new System.Drawing.Size(45, 15);
             this.TemperatureValueLabel.TabIndex = 0;
             this.TemperatureValueLabel.Text = "0.0000";
+            // 
+            // CJCSourceLabel
+            // 
+            this.CJCSourceLabel.AutoSize = true;
+            this.CJCSourceLabel.ForeColor = System.Drawing.Color.Black;
+            this.CJCSourceLabel.Location = new System.Drawing.Point(9, 127);
+            this.CJCSourceLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.CJCSourceLabel.Name = "CJCSourceLabel";
+            this.CJCSourceLabel.Size = new System.Drawing.Size(68, 15);
+            this.CJCSourceLabel.TabIndex = 10;
+            this.CJCSourceLabel.Text = "CJC source:";
+            // 
+            // CJCSourceValue
+            // 
+            this.CJCSourceValueLabel.AutoSize = true;
+            this.CJCSourceValueLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.CJCSourceValueLabel.ForeColor = System.Drawing.Color.Black;
+            this.CJCSourceValueLabel.Location = new System.Drawing.Point(88, 127);
+            this.CJCSourceValueLabel.Name = "CJCSourceValue";
+            this.CJCSourceValueLabel.Size = new System.Drawing.Size(16, 15);
+            this.CJCSourceValueLabel.TabIndex = 11;
+            this.CJCSourceValueLabel.Text = "Q";
         }
 
 
@@ -270,5 +372,12 @@ namespace DAQmxProj
         public Label PhysicalChannelValueLabel;
         private Label TemperatureLabel;
         private Label channelNameLabel;
+
+        public Label maxValueLabel;
+        public Label maximumValueLabel;
+        public Label minValueLabel;
+        private Label minimumLabel;
+        public Label CJCSourceValueLabel;
+        private Label CJCSourceLabel;
     }
 }

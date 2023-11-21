@@ -37,12 +37,19 @@
             this.button1 = new System.Windows.Forms.Button();
             this.channelFlowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.channelGroupBox = new System.Windows.Forms.GroupBox();
+            this.CJCSourceValue = new System.Windows.Forms.Label();
+            this.CJCSourceLabel = new System.Windows.Forms.Label();
+            this.maxValueLabel = new System.Windows.Forms.Label();
+            this.maximumValueLabel = new System.Windows.Forms.Label();
+            this.minValueLabel = new System.Windows.Forms.Label();
+            this.minimumLabel = new System.Windows.Forms.Label();
             this.ThermocoupleTypeValue = new System.Windows.Forms.Label();
             this.ThermocoupleTypeLabel = new System.Windows.Forms.Label();
             this.PhysicalChannelValueLabel = new System.Windows.Forms.Label();
             this.channelNameLabel = new System.Windows.Forms.Label();
             this.TemperatureLabel = new System.Windows.Forms.Label();
             this.TemperatureValueLabel = new System.Windows.Forms.Label();
+            this.sessionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.channelFlowLayoutPanel.SuspendLayout();
             this.channelGroupBox.SuspendLayout();
@@ -54,7 +61,7 @@
             this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(914, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(858, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip";
             // 
@@ -69,15 +76,16 @@
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.channellToolStripMenuItem});
+            this.channellToolStripMenuItem,
+            this.sessionToolStripMenuItem});
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.newToolStripMenuItem.Text = "New";
             // 
             // channellToolStripMenuItem
             // 
             this.channellToolStripMenuItem.Name = "channellToolStripMenuItem";
-            this.channellToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.channellToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.channellToolStripMenuItem.Text = "Channel";
             this.channellToolStripMenuItem.Click += new System.EventHandler(this.channellToolStripMenuItem_Click);
             // 
@@ -88,7 +96,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(384, 588);
+            this.button1.Location = new System.Drawing.Point(452, 419);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
@@ -101,14 +109,20 @@
             this.channelFlowLayoutPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.channelFlowLayoutPanel.Controls.Add(this.channelGroupBox);
             this.channelFlowLayoutPanel.ForeColor = System.Drawing.Color.ForestGreen;
-            this.channelFlowLayoutPanel.Location = new System.Drawing.Point(93, 51);
+            this.channelFlowLayoutPanel.Location = new System.Drawing.Point(159, 52);
             this.channelFlowLayoutPanel.Name = "channelFlowLayoutPanel";
-            this.channelFlowLayoutPanel.Size = new System.Drawing.Size(692, 415);
+            this.channelFlowLayoutPanel.Size = new System.Drawing.Size(692, 361);
             this.channelFlowLayoutPanel.TabIndex = 3;
             // 
             // channelGroupBox
             // 
-            this.channelGroupBox.BackColor = System.Drawing.Color.Bisque;
+            this.channelGroupBox.BackColor = System.Drawing.Color.LightPink;
+            this.channelGroupBox.Controls.Add(this.CJCSourceValue);
+            this.channelGroupBox.Controls.Add(this.CJCSourceLabel);
+            this.channelGroupBox.Controls.Add(this.maxValueLabel);
+            this.channelGroupBox.Controls.Add(this.maximumValueLabel);
+            this.channelGroupBox.Controls.Add(this.minValueLabel);
+            this.channelGroupBox.Controls.Add(this.minimumLabel);
             this.channelGroupBox.Controls.Add(this.ThermocoupleTypeValue);
             this.channelGroupBox.Controls.Add(this.ThermocoupleTypeLabel);
             this.channelGroupBox.Controls.Add(this.PhysicalChannelValueLabel);
@@ -118,11 +132,77 @@
             this.channelGroupBox.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.channelGroupBox.Location = new System.Drawing.Point(3, 3);
             this.channelGroupBox.Name = "channelGroupBox";
-            this.channelGroupBox.Size = new System.Drawing.Size(160, 87);
+            this.channelGroupBox.Size = new System.Drawing.Size(156, 159);
             this.channelGroupBox.TabIndex = 0;
             this.channelGroupBox.TabStop = false;
             this.channelGroupBox.Text = "groupBox1";
             this.channelGroupBox.Visible = false;
+            // 
+            // CJCSourceValue
+            // 
+            this.CJCSourceValue.AutoSize = true;
+            this.CJCSourceValue.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.CJCSourceValue.ForeColor = System.Drawing.Color.Black;
+            this.CJCSourceValue.Location = new System.Drawing.Point(88, 127);
+            this.CJCSourceValue.Name = "CJCSourceValue";
+            this.CJCSourceValue.Size = new System.Drawing.Size(16, 15);
+            this.CJCSourceValue.TabIndex = 11;
+            this.CJCSourceValue.Text = "Q";
+            // 
+            // CJCSourceLabel
+            // 
+            this.CJCSourceLabel.AutoSize = true;
+            this.CJCSourceLabel.ForeColor = System.Drawing.Color.Black;
+            this.CJCSourceLabel.Location = new System.Drawing.Point(9, 127);
+            this.CJCSourceLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.CJCSourceLabel.Name = "CJCSourceLabel";
+            this.CJCSourceLabel.Size = new System.Drawing.Size(68, 15);
+            this.CJCSourceLabel.TabIndex = 10;
+            this.CJCSourceLabel.Text = "CJC source:";
+            // 
+            // maxValueLabel
+            // 
+            this.maxValueLabel.AutoSize = true;
+            this.maxValueLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.maxValueLabel.ForeColor = System.Drawing.Color.Black;
+            this.maxValueLabel.Location = new System.Drawing.Point(88, 106);
+            this.maxValueLabel.Name = "maxValueLabel";
+            this.maxValueLabel.Size = new System.Drawing.Size(28, 15);
+            this.maxValueLabel.TabIndex = 9;
+            this.maxValueLabel.Text = "000";
+            // 
+            // maximumValueLabel
+            // 
+            this.maximumValueLabel.AutoSize = true;
+            this.maximumValueLabel.ForeColor = System.Drawing.Color.Black;
+            this.maximumValueLabel.Location = new System.Drawing.Point(9, 106);
+            this.maximumValueLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.maximumValueLabel.Name = "maximumValueLabel";
+            this.maximumValueLabel.Size = new System.Drawing.Size(33, 15);
+            this.maximumValueLabel.TabIndex = 8;
+            this.maximumValueLabel.Text = "Max:";
+            // 
+            // minValueLabel
+            // 
+            this.minValueLabel.AutoSize = true;
+            this.minValueLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.minValueLabel.ForeColor = System.Drawing.Color.Black;
+            this.minValueLabel.Location = new System.Drawing.Point(88, 85);
+            this.minValueLabel.Name = "minValueLabel";
+            this.minValueLabel.Size = new System.Drawing.Size(28, 15);
+            this.minValueLabel.TabIndex = 7;
+            this.minValueLabel.Text = "000";
+            // 
+            // minimumLabel
+            // 
+            this.minimumLabel.AutoSize = true;
+            this.minimumLabel.ForeColor = System.Drawing.Color.Black;
+            this.minimumLabel.Location = new System.Drawing.Point(9, 85);
+            this.minimumLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.minimumLabel.Name = "minimumLabel";
+            this.minimumLabel.Size = new System.Drawing.Size(31, 15);
+            this.minimumLabel.TabIndex = 6;
+            this.minimumLabel.Text = "Min:";
             // 
             // ThermocoupleTypeValue
             // 
@@ -190,11 +270,17 @@
             this.TemperatureValueLabel.TabIndex = 0;
             this.TemperatureValueLabel.Text = "0.0000";
             // 
+            // sessionToolStripMenuItem
+            // 
+            this.sessionToolStripMenuItem.Name = "sessionToolStripMenuItem";
+            this.sessionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sessionToolStripMenuItem.Text = "Session";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(914, 623);
+            this.ClientSize = new System.Drawing.Size(858, 448);
             this.Controls.Add(this.channelFlowLayoutPanel);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
@@ -228,5 +314,12 @@
         private Label channelNameLabel;
         private Label TemperatureLabel;
         private Label TemperatureValueLabel;
+        private Label maxValueLabel;
+        private Label maximumValueLabel;
+        private Label minValueLabel;
+        private Label minimumLabel;
+        private Label CJCSourceValue;
+        private Label CJCSourceLabel;
+        private ToolStripMenuItem sessionToolStripMenuItem;
     }
 }

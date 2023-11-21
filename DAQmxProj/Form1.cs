@@ -138,15 +138,19 @@ namespace DAQmxProj
             channelReadTimer.Start();
             if(DataStreaming == false)
             {
+                
                 analogInReader.BeginReadSingleSample(myAsyncCallback, analogInTask);
-                channelReadTimer.Start();
+                analogInTask.Start();
+                RunningTask = analogInTask;
                 button1.Text = "Stop";
+                DataStreaming = true;
             }
             else
             {
                 RunningTask= null;
-                analogInTask.Dispose();
-                button1.Text = "Start";
+                analogInTask.Stop();
+                button1.Text = "Start Read";
+                DataStreaming = false;
             }
 
 
