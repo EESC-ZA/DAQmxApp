@@ -3,16 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms.DataVisualization.Charting;
 
 namespace DAQmxProj
 {
-    internal class DataReader
+    internal class ChartHandler
     {
-        Chart gg;
-        public DataReader() 
-        {
-
-        }
     }
 }

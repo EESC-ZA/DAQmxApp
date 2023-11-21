@@ -2,10 +2,11 @@ using NationalInstruments.DAQmx;
 using System;
 using System.Data;
 using System.Threading.Tasks;
+using System.Windows.Forms.DataVisualization.Charting;  //chart
 
 namespace DAQmxProj
 {
-    public partial class Form1 : Form
+    public partial class DAQThemocoupleApp : Form
     {
         NationalInstruments.DAQmx.Task? analogInTask;
         NationalInstruments.DAQmx.Task? RunningTask;
@@ -20,10 +21,14 @@ namespace DAQmxProj
         double[] data;
 
 
+        //chart
+        Chart chart;
+        
+
 
         //  List<NationalInstruments.DAQmx.Task> DAQmxTasks;
         List<DAQmxChannel> dAQmxChannels;
-        public Form1()
+        public DAQThemocoupleApp()
         {
             InitializeComponent();
 

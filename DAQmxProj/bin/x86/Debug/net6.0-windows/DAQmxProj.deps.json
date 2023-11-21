@@ -9,7 +9,8 @@
       "DAQmxProj/1.0.0": {
         "dependencies": {
           "NationalInstruments.Common": "19.1.40.49152",
-          "NationalInstruments.DAQmx": "23.8.45.49349"
+          "NationalInstruments.DAQmx": "23.8.45.49349",
+          "System.Windows.Forms.DataVisualization": "4.0.0.0"
         },
         "runtime": {
           "DAQmxProj.dll": {}
@@ -30,6 +31,14 @@
             "fileVersion": "23.8.45.49349"
           }
         }
+      },
+      "System.Windows.Forms.DataVisualization/4.0.0.0": {
+        "runtime": {
+          "System.Windows.Forms.DataVisualization.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.9037.0"
+          }
+        }
       }
     }
   },
@@ -45,6 +54,11 @@
       "sha512": ""
     },
     "NationalInstruments.DAQmx/23.8.45.49349": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Forms.DataVisualization/4.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

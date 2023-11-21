@@ -1,6 +1,6 @@
 ﻿namespace DAQmxProj
 {
-    partial class Form1
+    partial class DAQThemocoupleApp
     {
         /// <summary>
         ///  Required designer variable.
